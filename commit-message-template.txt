@@ -1,0 +1,15 @@
+# FEAT: A new feature.
+# FIX: A bug fix.
+# DOCS: Documentation only changes.
+# STYLE: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc).
+# REFAC: A code change that neither fixes a bug nor adds a feature.
+# PERF: A code change that improves performance.
+# TEST: Adding missing tests.
+# CHORE: Changes to the build process or auxiliary tools and libraries such as documentation generation.
+
+REMOVE THIS LINE: type = [FEAT, FIX, DOCS, STYLE, REFAC, PERF, TEST, CHORE]
+{type}: {subject}
+
+{body}
+
+Issue(s): #{issue-number}
